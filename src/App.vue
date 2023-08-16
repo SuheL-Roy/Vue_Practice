@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <compBookListOne></compBookListOne>
+    <BlogList></BlogList>
   </div>
 </template>
 
 <script>
-import compBookListOne from "./components/BooklistOne.vue";
+import BlogList from "./components/Bloglist.vue";
 export default {
   data() {
     return {};
   },
   components: {
-    compBookListOne,
+    BlogList,
  
   },
 
